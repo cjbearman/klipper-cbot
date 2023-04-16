@@ -1,0 +1,25 @@
+pi@bearbot:~/klipper_config/resonance $ ~/klipper/scripts/calibrate_shaper.py /tmp/resonances_x_*.csv -o /tmp/shaper_calibrate_x.png
+Fitted shaper 'zv' frequency = 70.6 Hz (vibrations = 11.6%, smoothing ~= 0.038)
+To avoid too much smoothing with 'zv', suggested max_accel <= 19400 mm/sec^2
+Fitted shaper 'mzv' frequency = 67.8 Hz (vibrations = 1.8%, smoothing ~= 0.045)
+To avoid too much smoothing with 'mzv', suggested max_accel <= 13500 mm/sec^2
+Fitted shaper 'ei' frequency = 86.2 Hz (vibrations = 2.9%, smoothing ~= 0.044)
+To avoid too much smoothing with 'ei', suggested max_accel <= 13800 mm/sec^2
+Fitted shaper '2hump_ei' frequency = 84.2 Hz (vibrations = 0.0%, smoothing ~= 0.076)
+To avoid too much smoothing with '2hump_ei', suggested max_accel <= 7900 mm/sec^2
+Fitted shaper '3hump_ei' frequency = 104.2 Hz (vibrations = 0.0%, smoothing ~= 0.075)
+To avoid too much smoothing with '3hump_ei', suggested max_accel <= 7900 mm/sec^2
+Recommended shaper is mzv @ 67.8 Hz
+pi@bearbot:~/klipper_config/resonance $ ~/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_*.csv -o /tmp/shaper_calibrate_y.png
+Fitted shaper 'zv' frequency = 69.2 Hz (vibrations = 18.3%, smoothing ~= 0.039)
+To avoid too much smoothing with 'zv', suggested max_accel <= 18700 mm/sec^2
+Fitted shaper 'mzv' frequency = 44.0 Hz (vibrations = 1.1%, smoothing ~= 0.105)
+To avoid too much smoothing with 'mzv', suggested max_accel <= 5700 mm/sec^2
+Fitted shaper 'ei' frequency = 59.2 Hz (vibrations = 2.2%, smoothing ~= 0.092)
+To avoid too much smoothing with 'ei', suggested max_accel <= 6500 mm/sec^2
+Fitted shaper '2hump_ei' frequency = 63.2 Hz (vibrations = 0.0%, smoothing ~= 0.135)
+To avoid too much smoothing with '2hump_ei', suggested max_accel <= 4400 mm/sec^2
+Fitted shaper '3hump_ei' frequency = 78.6 Hz (vibrations = 0.0%, smoothing ~= 0.133)
+To avoid too much smoothing with '3hump_ei', suggested max_accel <= 4500 mm/sec^2
+Recommended shaper is mzv @ 44.0 Hz
+
