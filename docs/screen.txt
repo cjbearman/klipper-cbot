@@ -1,0 +1,12 @@
+Ingcool 7 inch HDMI LCD 1024x600 Resolution Capacitive Touch Screen IPS Display Module Compatible with Raspberry Pi 4 3 2 1 B B+ A+, PC, Supports Windows 10/8.1/8 / 7
+
+https://www.amazon.com/gp/product/B08RHXP9J4/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1
+
+To config.txt:
+
+max_usb_current=1
+hdmi_group=2
+hdmi_mode=87
+hdmi_cvt=1024 600 60 6 0 0 0
+hdmi_drive=1
+
