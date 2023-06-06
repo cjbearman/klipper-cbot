@@ -17,7 +17,7 @@ $ make menuconfig
     Communication interface (USB to CAN bus bridge (USB on PA11/PA12))  --->
     CAN bus interface (CAN bus (on PD0/PD1))  --->
     USB ids  --->
-(500000) CAN bus speed
+(1000000) CAN bus speed
 ()  GPIO pins to set at micro-controller startup
 --------------------------------------------------------------------------------
 $ make clean
@@ -35,7 +35,7 @@ $ cp out/klipper.bin $HOME/CanFW/octopus_klipper.bin
     Bootloader offset (8KiB bootloader)  --->
     Clock Reference (8 MHz crystal)  --->
     Communication interface (CAN bus (on PB0/PB1))  --->
-(500000) CAN bus speed
+(1000000) CAN bus speed
 ()  GPIO pins to set at micro-controller startup
 --------------------------------------------------------------------------------
 $ make clean
