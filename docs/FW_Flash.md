@@ -52,7 +52,7 @@ $ ./flash_can.py -d /dev/serial/by-id/usb-CanBoot_stm32f446xx_35000800165053424E
 ```
 Once this is complete, the EBB42 should be available on the CAN Bus. If not a double press of the reset button (not the one by USBC connector, the other one), should work to get it available
 ```
-$ ./flash_can.py -u 93da6270593a -f ~/CanFW/ebb42_klipper.bin
+$ ./flash_can.py -u ec4e663a5b36 -f ~/CanFW/ebb42_klipper.bin
 ```
 
 SHUTDOWN, POWER OFF, AND RESTART
